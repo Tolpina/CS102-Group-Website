@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    
+}
+
+#wrapper{
+    width: 80%;
+    height: auto;
+    background-color: black;
+    
+}
