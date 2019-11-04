@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    color:white;
+    /* altered line height */
+    line-height: 1.5em;
+}
+
+#wrapper{
+    width: auto;
+    height: auto;
+    padding: 2em;
+    background-color: black;
+}
+
+header{
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font: bold;
+}
+
+/* altered for sizing - made into background image */
+#Effects{
+    background-image: url(../Political/Images/GageLogo.png);
+    /* CHANGE LOCATION BEFORE UPLOADING */
+    height: 15em;
+    width: auto;
+    background-position: center;
+    background-position-y: 0px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-top: 1em;
+    padding: 0;
+}
+
+nav{
+    width: auto;
+    margin-top: 0;
+    /* added for center alignment (margin altered) */
+    text-align: center;
+    margin-bottom: 2em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid gray;
+}
+
+/* added for inline nav display */
+nav ul li{
+    display: inline;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    /* altered */
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+#box1{
+    padding-right: 4em;
+    padding-left: 4em; 
+}
+#box1 h1{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    /* font-style: italic; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.x{
+    font-size: 30px;
+    text-align: center;
+    color:gray;
+    word-spacing: 30px;
+    font-family: cursive;
+}
+#box p{
+    font-size: 20px;
+}
+
+/* beginning of column css */
+#boxes{
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+.box1{
+    float: left;
+    display: block;
+    width: 30%;
+    background-color: black;
+    padding: 1em;
+}
+.box1 h2{
+    border-bottom: 1.5px dashed gray;
+    padding-bottom: 0.5em;
+}
+.box1 a{
+    text-decoration: none;
+    color:red;
+}
+.box1 a:hover{
+    color:gray;
+}
+
+.box2{
+    float: left;
+    display: block;
+    width: 30%;
+    background-color: black;
+    padding: 1em;
+}
+.box2 h2{
+    border-bottom: 1.5px dashed gray;
+    padding-bottom: 0.5em;
+}
+.box2 a{
+    text-decoration: none;
+    color:red;
+}
+.box2 a:hover{
+    color:gray;
+}
+
+.box3{
+    float: left;
+    display: block;
+    width: 30%;
+    background-color: black;
+    padding: 1em;
+}
+.box3 h2{
+    border-bottom: 1.5px dashed gray;
+    padding-bottom: 0.5em;
+}
+.box3 a{
+    text-decoration: none;
+    color:red;
+}
+.box3 a:hover{
+    color:gray;
+}
+/* end of column css */
+
+.clearfix{
+    clear: both;
+}
+
