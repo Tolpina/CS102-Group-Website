@@ -1,14 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to top, black 0%,  darkred  100%);
+    background-color: darkred;
     color: #fff;
+    line-height: 1.5em;
+    padding:10px;
 }
 
 h1 {
     color: white;
     text-align: center;
 }
-
+/* 
 #wrapper {
     background-image: linear-gradient(to bottom, black 0%,  darkred  100%);
     padding-top: 1px;
@@ -17,36 +19,71 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 5px; */
+/* } */
+
+#wrapper{
+    width: auto;
+    height: auto;
+    padding: 2em;
+    background-color: black;
 }
 
-nav {
+header{
+    color: white;
+    height: auto;
+    width: auto;
     text-align: center;
-    padding: 8px;
+    font: bold;
+}
+
+/* altered for sizing - made into background image */
+#Effects{
+    background-image: url(../Images/GageLogo.png);
+    height: 15em;
+    width: auto;
+    background-position: center;
+    background-position-y: 0px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-top: 1em;
+    padding: 0;
+}
+
+nav{
+    width: auto;
+    margin-top: 0;
+    /* added for center alignment (margin altered) */
+    text-align: center;
+    /* margin-bottom: 2em;  */
+    padding-bottom: 1.5em;
+    /* border-bottom: 1px solid gray; */
+}
+
+/* added for inline nav display */
+nav ul li{
+    display: inline;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 nav a {
-    padding: 20px;
-    color: #fff;
     text-decoration: none;
-}
-
-nav a:link {
-    color: #fff;
-}
-
-nav a:visited {
-    color: red;
+    color: white;
+    /* altered */
+    font-size: 20px;
 }
 
 nav a:hover {
-    color: blue;
+    color: red;
 }
 
 .box {
     width: 30%;
     float: left;
     padding: 10px;
+  
 }
 
 .clearfix {
@@ -57,6 +94,7 @@ footer {
     padding-top: 5px;
     text-align: center;
     background-color: black;
+    padding-bottom: 20px;
 }
 
 .centerimage {
@@ -67,6 +105,7 @@ footer {
 
 h4 a{
     text-decoration: none;
+    color: whitesmoke;
       
 }
 h4 a:link {
@@ -74,10 +113,21 @@ h4 a:link {
 }
 
 h4 a:visited {
-    color:darkblue;
+    color:whitesmoke;
 }
 
 h4 a:hover {
-    color:darkblue;
-    border: 3px inset #fff;
+    color:red;
+/*     border: 3px inset #fff;
+    padding: 6px; */
 }
+
+.right{
+    float: right;
+    padding-top: 150px;
+}
+.left{
+    float: left;
+    padding-top: 150px;
+}
+
