@@ -190,7 +190,7 @@ h2{
 
 #readmore{
     text-align: center;
-    border: 1px solid lightgray;
+    border: 1px solid white;
     border-radius: 10px;
     width: 12em;
     padding: 0.8em;
@@ -199,12 +199,12 @@ h2{
     margin-bottom: 2em;
     text-decoration: none;
     font-size: 20px;
-    color:lightgray;
+    color:white;
     font-weight: bold;
 }
 #readmore:hover{
-    border: 1px solid gray;
-    color:gray;
+    border: 1px solid lightgray;
+    color:lightgray;
     cursor: pointer;
 }
 
