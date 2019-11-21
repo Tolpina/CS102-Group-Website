@@ -29,7 +29,7 @@ header{
 
 /* altered for sizing - made into background image */
 #Effects{
-    background-image: url(../Political/Images/GageLogo.png);
+    background-image: url(../../Gage/Images/GageLogo.png);
     height: 15em;
     width: auto;
     background-position: center;
