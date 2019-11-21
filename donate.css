@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+}
+
+#wrapper {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+img {
+    height: 800px;
+    width: 1020px;
+    background-color: black;
+    margin-right: 100px;
+    margin-top:15px;
+}
+
+h1{
+    color: white;
+    margin-left: 20px;
+}
+
+p{
+    color: white;
+    margin-left: 20px;
+}
+
+nav {
+    width: auto;
+    margin-top: 165px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+nav a:hover {
+    color: red;
+}
+.floatright{
+    float: right;
+}
+.floatmiddle{
+    float:center;
+    text-align:center;
+}
+
+.floatright p{
+    margin-right: 20px;
+}
+
+
+.floatleft{
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+header{
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font: bold;
+}
+.resize{
+   image:url(.images/donatebutton.png);
+
+}
+title h1{
+    text-align:center;
+}
+.submit{
+    padding:1em 2em;
+    font-weight:bold;
+    
+}
