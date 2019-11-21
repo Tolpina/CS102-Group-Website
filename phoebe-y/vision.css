@@ -30,7 +30,7 @@ header{
 
 /* altered for sizing - made into background image */
 #Effects{
-    background-image: url(images/GageLogoWhite.png);
+    background-image: url(images/GageLogoRed+White.png);
     height: 15em;
     width: auto;
     background-position: center;
@@ -68,7 +68,7 @@ nav a{
 
 nav a:hover{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 
 /* WRAPPER 1 */
@@ -83,7 +83,7 @@ nav a:hover{
 #box1 h1{
     text-align: center;
     /* color:red; */
-    color:#dd2c00;
+    color:#e92535;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5em;
@@ -104,7 +104,7 @@ nav a:hover{
 }
 #p a{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     text-decoration: none;
 }
 #p a:hover{
@@ -141,7 +141,7 @@ h2{
 .box1 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 .box1 a:hover{
     color:gray;
@@ -166,7 +166,7 @@ h2{
 .box2 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00
+    color:#e92535;
 }
 .box2 a:hover{
     color:gray;
@@ -191,7 +191,7 @@ h2{
 .box3 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 .box3 a:hover{
     color:gray;
@@ -241,7 +241,7 @@ h2{
 #box2 h1{
     text-align: center;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5em;
@@ -265,7 +265,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color:#e72e00;
+    color:#e92535;
 }
 
 /* OTHER */
@@ -276,7 +276,7 @@ footer a:hover{
 
 #topbutton{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     text-decoration: none;
     float: right;
     margin-right: 4em;
