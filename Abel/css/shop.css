@@ -67,7 +67,7 @@ nav a{
 
 nav a:hover{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 
 /* WRAPPER 1 */
@@ -103,7 +103,7 @@ nav a:hover{
 }
 #p a{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     text-decoration: none;
 }
 #p a:hover{
@@ -140,7 +140,7 @@ h2{
 .box1 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 .box1 a:hover{
     color:gray;
@@ -165,7 +165,7 @@ h2{
 .box2 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00
+    color:#e92535;
 }
 .box2 a:hover{
     color:gray;
@@ -190,7 +190,7 @@ h2{
 .box3 a{
     text-decoration: none;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
 }
 .box3 a:hover{
     color:gray;
@@ -252,7 +252,7 @@ h2{
 #box2 h1{
     text-align: center;
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5em;
@@ -273,7 +273,7 @@ h2{
 
 #topbutton{
     /* color:red; */
-    color:#e72e00;
+    color:#e92535;
     text-decoration: none;
     float: right;
     margin-right: 4em;
