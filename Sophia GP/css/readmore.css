@@ -71,7 +71,7 @@ header {
 /* altered for sizing - made into background image */
 
 #Effects {
-    background-image: url(../Images/GageLogo.png);
+    background-image: url(../Images/GageLogoWhite.png);
     height: 15em;
     width: auto;
     background-position: center;
@@ -127,3 +127,21 @@ footer {
     text-align: center;
     background-color: black;
 }
+
+@media(max-width:986px){
+    nav ul li{
+        display: inline;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:800px){
+    #box1{
+        max-width: 100%;
+        position: center;
+        height: auto;
+    }

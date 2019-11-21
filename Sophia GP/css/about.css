@@ -39,7 +39,7 @@ header{
 
 /* altered for sizing - made into background image */
 #Effects{
-    background-image: url(../Images/GageLogo.png);
+    background-image: url(../Images/GageLogoWhite.png);
     height: 15em;
     width: auto;
     background-position: center;
@@ -115,12 +115,11 @@ h4 a:link {
 h4 a:visited {
     color:whitesmoke;
 }
-
-h4 a:hover {
-    color:red;
-/*     border: 3px inset #fff;
-    padding: 6px; */
+h4:hover{
+    color:lightgray;
+    cursor: pointer;
 }
+
 
 .right{
     float: right;
@@ -130,4 +129,22 @@ h4 a:hover {
     float: left;
     padding-top: 150px;
 }
+
+@media(max-width:986px){
+    nav ul li{
+        display: inline;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:800px){
+    #box1{
+        max-width: 100%;
+        position: center;
+        height: auto;
+    }
 
