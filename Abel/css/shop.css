@@ -22,10 +22,9 @@ body{
 
 header{
     color: white;
-    height: auto;
-    width: auto;
     text-align: center;
     font: bold;
+    font-size: 5em;
 }
 
 /* altered for sizing - made into background image */
