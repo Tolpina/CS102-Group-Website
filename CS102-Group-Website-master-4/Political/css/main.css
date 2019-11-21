@@ -1,0 +1,116 @@
+/* Author: Gage White*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    margin: 0;
+}
+
+#wrapper {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+img {
+    max-height: 750px;
+    max-width: 1020px;
+    min-width: auto;
+    min-height: auto;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: none;
+    z-index: -1;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+}
+
+nav {
+    width: auto;
+    margin-top: 165px;
+    padding-bottom: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.floatright {
+    float: right;
+}
+
+.floatright p {
+    margin-right: 20px;
+}
+
+.floatright h1 {
+    margin-right: 20px;
+}
+
+.floatleft {
+    float: left;
+    font-size: small;
+    margin-left: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header {
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font: bold;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    font-size: 50px;
+}
+
+#effects {
+    width:auto;
+    height: auto;
+}
+
+footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.communites{
+    background-image: url(../Images/steve-carrera-ZsRJ-AucgfI-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 105vh;
+    text-align: center;
+    font-size: 5em;
+}
+p{
+    width: auto;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
