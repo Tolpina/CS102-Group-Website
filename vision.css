@@ -1,4 +1,3 @@
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkred;
@@ -7,11 +6,18 @@ body{
     line-height: 1.5em;
 }
 
-#wrapper{
+#wrapper1{
     width: auto;
     height: auto;
     padding: 2em;
     background-color: black;
+}
+
+#wrapper2{
+    width: auto;
+    height: auto;
+    padding: 2em;
+    background-color:#f3f3f3;
 }
 
 header{
@@ -24,7 +30,7 @@ header{
 
 /* altered for sizing - made into background image */
 #Effects{
-    background-image: url(../Images/GageLogo.png);
+    background-image: url(../Political/Images/GageLogo.png);
     height: 15em;
     width: auto;
     background-position: center;
@@ -53,34 +59,35 @@ nav ul li{
     padding-right: 3em;
 }
 
-nav a {
+nav a{
     text-decoration: none;
     color: white;
     /* altered */
     font-size: 20px;
 }
 
-nav a:hover {
-    color: red;
+nav a:hover{
+    /* color:red; */
+    color:#e72e00;
 }
 
+/* WRAPPER 1 */
+
 #box1{
-    margin-right: 4em;
-    margin-left: 4em;
+    margin-right: 3.95%;
+    margin-left: 3.95%;
     padding-left: 1em;
     padding-right: 1em;
     border: 1px solid gray; 
 }
 #box1 h1{
     text-align: center;
-    color:red;
+    /* color:red; */
+    color:#dd2c00;
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5em;
 }
-/* #box1 p b{
-    color:gray;
-} */
 .x{
     font-size: 30px;
     text-align: center;
@@ -93,16 +100,21 @@ nav a:hover {
     font-size: 24px;
     line-height: 1.5em;
     font-style: italic;
-    /* float: left;
-    width: 40%;
-    display: block; */
     margin: 0 2em 2em 2em;
+}
+#p a{
+    /* color:red; */
+    color:#e72e00;
+    text-decoration: none;
+}
+#p a:hover{
+    color:gray;
 }
 
 /* beginning of column css */
 #boxes{
-    padding-right: 3em;
-    padding-left: 3em;
+    padding-right: 3.95%;
+    padding-left: 3.95%;
 }
 
 h2{
@@ -115,7 +127,7 @@ h2{
     display: block;
     width: 30.7%;
     background-color: black;
-    padding: 1em;
+    padding: 1.2%;
     border-right: 1px solid gray;
 }
 .box1 h2{
@@ -128,7 +140,8 @@ h2{
 }
 .box1 a{
     text-decoration: none;
-    color:red;
+    /* color:red; */
+    color:#e72e00;
 }
 .box1 a:hover{
     color:gray;
@@ -139,7 +152,7 @@ h2{
     display: block;
     width: 30.7%;
     background-color: black;
-    padding: 1em;
+    padding: 1.2%;
     border-right: 1px solid gray;
 }
 .box2 h2{
@@ -152,7 +165,8 @@ h2{
 }
 .box2 a{
     text-decoration: none;
-    color:red;
+    /* color:red; */
+    color:#e72e00
 }
 .box2 a:hover{
     color:gray;
@@ -163,7 +177,8 @@ h2{
     display: block;
     width: 30.7%;
     background-color: black;
-    padding: 1em;
+    padding: 1.2%;
+    padding-right: none;
 }
 .box3 h2{
     border-bottom: 1.5px dashed gray;
@@ -175,7 +190,8 @@ h2{
 }
 .box3 a{
     text-decoration: none;
-    color:red;
+    /* color:red; */
+    color:#e72e00;
 }
 .box3 a:hover{
     color:gray;
@@ -183,7 +199,8 @@ h2{
 
 .image{
     position: center;
-    max-width: 100%;
+    max-width: 380px;
+    width: 100%;
     height: auto;
 }
 /* end of column css */
@@ -208,22 +225,73 @@ h2{
     cursor: pointer;
 }
 
+/* WRAPPER 2 */
+
+#box2{
+    margin-right: 3.95%;
+    margin-left: 3.95%;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 1px solid gray;
+    margin-bottom: 2em;
+}
+#box2 h1{
+    text-align: center;
+    /* color:red; */
+    color:#e72e00;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 0.5em;
+}
+#p2{
+    font-size: 24px;
+    line-height: 1.5em;
+    font-style: italic;
+    margin: 0 2em 2em 2em;
+    color: black;
+}
+
+/* OTHER */
+
 .clearfix{
     clear: both;
 }
 
-footer{
-    text-align: center;
+#topbutton{
+    /* color:red; */
+    color:#e72e00;
+    text-decoration: none;
+    float: right;
+    margin-right: 4em;
+}
+#topbutton:hover{
+    color:gray;
 }
 
+footer{
+    text-align: center;
+    color:gray;
+}
 
-@media(max-width:913px){
+/* SCREEN SIZE */
+
+@media(max-width:986px){
+    nav ul li{
+        display: inline;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    nav a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width:800px){
     #box1{
         max-width: 100%;
         position: center;
         height: auto;
     }
-
     #box1 p{
         font-size: 20px
     }
@@ -239,6 +307,10 @@ footer{
     }
 
     .image{
+        max-width: 678.4px;
+        max-height: 360px;
+        position: center;
+        object-fit: cover;
         width: 100%;
-    } section
+    }
 }
