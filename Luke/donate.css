@@ -12,14 +12,15 @@ body {
 
 
 
-h1{
+.box2 h1{
     color: white;
     margin-left: 20px;
 }
 
-p{
+.box2 p{
     color: white;
     margin-left: 20px;
+    font-size: 20pt;
 }
 
 nav{
@@ -59,20 +60,22 @@ nav a:hover{
     color:#e92535;
 }
 
-nav a:hover {
-    color: red;
-}
+
+
 .box1{
     float:left;
     background-image:url(CSCI\ Final\ Background.jpeg);
     width:50%;
     background-size:cover;
-    margin:50px;
+    margin-left:50px;
 }
 .box2{
     float:left;
-    margin:150px;
-    width: 49px;
+   width:46%;
+
+}
+.enter{
+    color:white;
 }
 
 
@@ -91,7 +94,7 @@ header{
 
 
 
-title h1{
+.Header{
     text-align:center;
 }
 
@@ -108,11 +111,17 @@ form input{
     text-align:center;
     align-content:center;
 }
-.Info{
+form{
     max-width:300px;
-    background-color:white;
+    background-color:darkred;
     margin:40px auto;
-    padding: 1.5em;
-border-radius:4px;
-box-shadow:0 0 5px rgba(0,0,0,.2);
+    padding: 5em;
+    text-align:center;
+    align-items: center;
+
+
+}
+form input{
+    padding:2em;
+   
 }
