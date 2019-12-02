@@ -125,7 +125,8 @@ nav a:hover {
 .clearfix {
     clear: both;
     align-self: center;
-    padding-left: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 footer {
